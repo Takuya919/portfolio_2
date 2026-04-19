@@ -1,0 +1,100 @@
+/*------------------- 全体 ---------------------------------*/
+#wall {
+  background-color: #f5f5f5;
+}
+/*------------------- アイコン ---------------------------------*/
+div.watasi {
+  width: 100px;
+  padding: 5px;
+  border-radius:100%;
+  background: white;
+}
+div.watasi_maru {
+  height: 100px; 
+  border-radius:50%; /*heigtとborder-radiusで『〇』になる*/
+  background-image: url("Takuya.png");
+  background-position: auto; /* 横、縦 */
+  background-size: cover; 
+}
+div .note{
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50%;
+  margin-left:auto;
+  position: relative ;
+  top: 10px;
+  right: 10px;
+}
+div .twitter{
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 50%;
+  margin-left:auto;
+  position: relative ;
+  top: 10px;
+  right: 10px;
+}
+/*------------------- ヘッダー画面 ---------------------------------*/
+#header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  height: 200px; /*高さ*/
+  background-size: auto 100% ;
+  background: url(header2.jpg) center;
+}
+
+#header .Webtitle {
+  display: block;
+}
+
+#header .logo {
+   font-family: serif;
+   color: white;
+  font-size: 45px;
+}
+#header .sublogo {
+  font-family: serif;
+   color: white;
+   font-size: 20px;
+　  text-align: center;
+}
+
+/*------------------- 見出し ---------------------------------*/
+h2 {
+  font-family: serif;
+  padding: 1rem 2rem;
+  border-left: 6px double #000;
+  background: #f4f4f4;
+}
+
+h3 {
+  font-family: serif;
+  border-bottom: 2px solid #000;
+}
+
+/*------------------- フッター ---------------------------------*/
+#footer .copyright {
+  font-size: 10px;
+  color: #8c8c8c;
+  text-align: right;　
+}
+
+/*------------------- 文字---------------------------------*/
+p {
+font-family: serif;
+}
+
+li {
+font-family: serif;
+}
+
+figcaption　{
+font-family: serif;
+}
